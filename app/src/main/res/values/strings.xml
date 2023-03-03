@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Conversor de Unidades</string>
+    <string name="activity_Longitud">Conversor de Longitud</string>
+    <string name="activity_Peso">Conversor de Peso</string>
+    <string name="activity_Volumen">Conversor de Volumen</string>
+    <string name="activity_Temperatura">Conversor de Temperatura</string>
+
+    <string-array name="opciones_Longitud">
+        <item>Kilometro</item>
+        <item>Metro</item>
+        <item>Decimetro</item>
+        <item>Centimetro</item>
+        <item>Milimetro</item>
+    </string-array>
+
+    <string-array name="opciones_Peso">
+        <item>Tonelada</item>
+        <item>Kilogramo</item>
+        <item>Gramo</item>
+        <item>Miligramo</item>
+        <item>Microgramo</item>
+    </string-array>
+
+    <string-array name="opciones_Volumen">
+        <item>Metro cubico</item>
+        <item>Decimetro cubico</item>
+        <item>Centimetro cubico</item>
+        <item>Milimetro cubico</item>
+    </string-array>
+
+    <string-array name="opciones_Temperatura">
+        <item>Centigrados</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+</resources>

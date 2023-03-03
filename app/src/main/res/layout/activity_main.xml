@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:clipToPadding="false"
+            android:dividerPadding="10dp">
+
+            <Button
+                android:id="@+id/btn_Longitud"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:onClick="vistaLongitud"
+                android:padding="30dp"
+                android:paddingLeft="0dp"
+                android:paddingTop="0dp"
+                android:paddingBottom="0dp"
+                android:shadowRadius="@dimen/material_emphasis_high_type"
+                android:text="Longitud"
+                android:textColorHighlight="#CF73DF"
+                app:cornerRadius="20dp"
+                app:icon="@drawable/ph_ruler"
+                app:iconGravity="top"
+                app:iconSize="30dp"
+                app:strokeColor="#AC78B5" />
+
+            <Button
+                android:id="@+id/btn_Peso"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:onClick="vistaPeso"
+                android:padding="30dp"
+                android:shadowRadius="@dimen/material_emphasis_high_type"
+                android:text="Peso"
+                app:cornerRadius="20dp"
+                app:icon="@drawable/pajamas_weight"
+                app:iconGravity="top"
+                app:iconSize="30dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_Volumen"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:onClick="vistaVolumen"
+                android:padding="30dp"
+                android:shadowRadius="@dimen/material_emphasis_high_type"
+                android:text="Volumen"
+                app:cornerRadius="20dp"
+                app:icon="@drawable/system_uicons_cube"
+                app:iconGravity="top"
+                app:iconSize="30dp" />
+
+            <Button
+                android:id="@+id/btn_Temperatura"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:onClick="vistaTemperatura"
+                android:padding="30dp"
+                android:shadowRadius="@dimen/material_emphasis_high_type"
+                android:text="Temperatura"
+                app:cornerRadius="20dp"
+                app:icon="@drawable/tabler_temperature"
+                app:iconGravity="top"
+                app:iconSize="30dp" />
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
